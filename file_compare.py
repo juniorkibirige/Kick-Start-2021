@@ -14,9 +14,14 @@ def compare(f1, f2):
         print(line)
 
 
-# compare('sample_test_set_1/sample_ts1_output.txt','sample_test_set_1/sample_ts1_input.txt.out')
+compare('K-Goodness/sample_test_set_1/sample_ts1_output.txt','K-Goodness/sample_test_set_1/sample_ts1_input.txt.out')
 
-# compare('test_set_1/ts1_output.txt','test_set_1/ts1_input.txt.out')
+compare('K-Goodness/test_set_1/ts1_output.txt','K-Goodness/test_set_1/ts1_input.txt.out')
 
-# compare('test_set_2/ts2_output.txt','test_set_2/ts2_input.txt.out')
-compare('./file2.txt', './file1.txt')
+compare('K-Goodness/test_set_2/ts2_output.txt','K-Goodness/test_set_2/ts2_input.txt.out')
+
+compare('L-Shaped Plots/sample_test_set_1/sample_ts1_output.txt','L-Shaped Plots/sample_test_set_1/sample_ts1_input.txt.out')
+
+compare('L-Shaped Plots/test_set_1/ts1_output.txt','L-Shaped Plots/test_set_1/ts1_input.txt.out')
+
+compare('L-Shaped Plots/test_set_2/ts2_output.txt','L-Shaped Plots/test_set_2/ts2_input.txt.out')
